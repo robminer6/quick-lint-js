@@ -8,10 +8,24 @@ Semantic Versioning.
 
 ## Unreleased
 
+### Added
+
+* [E0144][] and [E0145][] are now reported for `implements`, `interface`,
+  `package`, `private`, `protected`, and `public` (in addition to other
+  keywords).
+
 ### Fixed
 
 * [E0150][] no longer crashes quick-lint-js when using a German (`de`) locale.
   (Fixed by [Nico Sonack][].)
+* The npm package now includes `copyright` files listing software licenses and
+  copyright notices.
+
+### Changed
+
+* This release is signed with a new GPG key.
+  * Old fingerprint: 0327DE8F9CEF499851D19F6ED20BA9DCCF0E9D20
+  * New fingerprint: A6851D57A65803E98C05DA01C08A7BC89CA2F557
 
 ## 2.4.2 (2022-04-22)
 
@@ -538,6 +552,7 @@ Beta release.
 [E0111]: https://quick-lint-js.com/errors/E0111/
 [E0119]: https://quick-lint-js.com/errors/E0119/
 [E0144]: https://quick-lint-js.com/errors/E0144/
+[E0145]: https://quick-lint-js.com/errors/E0145/
 [E0150]: https://quick-lint-js.com/errors/E0150/
 [E0151]: https://quick-lint-js.com/errors/E0151/
 [E0173]: https://quick-lint-js.com/errors/E0173/
